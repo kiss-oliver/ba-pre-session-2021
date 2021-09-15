@@ -1,0 +1,538 @@
+pwd
+  561  sudo su
+  562  hafl
+  563  htop
+  564  hafl
+  565  clf
+  566  pwd
+  567  . 
+  568  . Documents/opera_h264/fix_opera.sh 
+  569  cd ..
+  570  rmdir bla/
+  571  cd ..
+  572  ls
+  573  rmdir my\ other\ whatever/
+  574  rmdir -f my\ other\ whatever/
+  575  rm -rf my\ other\ whatever/
+  576  ls
+  577  mkdir bla
+  578  mkdir bla/foo/baz/
+  579  mkdir -p bla/foo/baz/
+  580  ls bla/
+  581  ls bla/foo/
+  582  rmdir bla/
+  583  rmdir bla/foo/baz/
+  584  rmdir bla/foo/
+  585  rmdir bla/
+  586  mkdir thesis
+  587  cd thesis/
+  588  nano MyThesis.txt
+  589  ls
+  590  nano MyThesis.txt
+  591  cat MyThesis.txt 
+  592  cd ..
+  593  cd Documents/ba-pre-session-2021/
+  594  ls
+  595  cd ..
+  596  ls
+  597  cat szeminarium/Python/01_valtozok/01_valtozok_alapmuveletek.md 
+  598  ls
+  599  cat cmd_door.pdf 
+  600  cd ../thesis/
+  601  ls
+  602  less MyThesis.txt 
+  603  less ../Documents/anyagok/szeminarium/01_valtozok_alapmuveletek.md 
+  604  history
+  605  ck ../
+  606  cd ../
+  607  history --help
+  608  history
+  609  cd ../
+  610  cd
+  611  history
+  612  history > a.txt
+  613  ls
+  614  ls > b.txt
+  615  cat thesis/MyThesis.txt 
+  616  cat thesis/MyThesis.txt > c.txt
+  617  ls
+  618  cd my\ folder/
+  619  cd ../Templates/
+  620  cd
+  621  cd Documents/ba-pre-session-2021/02_functions_of_one_variable/
+  622  cd
+  623  pwd
+  624  ls
+  625  ls -F
+  626  cd Documents/
+  627  ls
+  628  pwd
+  629  cd ~
+  630  pwd
+  631  cd Documents/
+  632  cd
+  633  cd Documents/
+  634  cd /home/kisso/
+  635  pwd
+  636  cd Documents/
+  637  cd ..
+  638  cd /
+  639  ls
+  640  cd /home/kisso/Documents/
+  641  cd
+  642  cd Documents/
+  643  cd
+  644  pwd
+  645  cd /
+  646  ls
+  647  cd
+  648  pwd
+  649  cd Documents/
+  650  ls
+  651  ls ../
+  652  ls
+  653  ls ../
+  654  ls /home/kisso/
+  655  cd
+  656  ls
+  657  ls -l
+  658  cd Documents/
+  659  ls -l
+  660  ls -lr
+  661  ls
+  662  ls -F
+  663  ls -l
+  664  ls --help
+  665  ls --help
+  666  man ls
+  667  ls -t
+  668  ls -tl
+  669  ls -lt
+  670  ls -tl
+  671  man ls
+  672  ls -u
+  673  ls -ul
+  674  ls -ult
+  675  man ls
+  676  ls -l
+  677  ls -lr
+  678  ls -l --reverse
+  679  # blabla
+  680  ls -lh
+  681  ls -ltr
+  682  cd .
+  683  cd ..
+  684  cd Documents/
+  685  cd ~/Documents/..
+  686  cd ~/kejnblkiíwnegiwín/..
+  687  cd Documents/ba-pre-session-2021/02_functions_of_one_variable/
+  688  ls
+  689  cd ~
+  690  cd Documents/ba-pre-session-2021/02_functions_of_one_variable/
+  691  ls
+  692  cd
+  693  cd Documents/
+  694  ls
+  695  ls -l
+  696  ls -lt
+  697  ls -ltr
+  698  ls -lt
+  699  ls -ltr
+  700  ls -tr
+  701  ls
+  702  ls -F
+  703  ls
+  704  cd
+  705  ls
+  706  cd whatever/
+  707  cd ..
+  708  cd my other whatever
+  709  cd my\ other\ whatever
+  710  mkdir bla
+  711  ls
+  712  cd bla
+  713  ls
+  714  cd
+  715  cd my\ other\ whatever/bla/
+  716  cd ..
+  717  cd bla
+  718  cd ..
+  719  cd bla/
+  720  cd ..
+  721  nano bla
+  722  cd
+  723  ls
+  724  cd /home/kisso/Documents/ba-pre-session-2021/02_functions_of_one_variable/
+  725  cd
+  726  cd Pictures/
+  727  ls
+  728  ls ..
+  729  cd ../my\ other\ whatever/bla/
+  730  ls
+  731  cd ..
+  732  cd
+  733  cd my\ other\ whatever/
+  734  ls
+  735  mkdir bla
+  736  ls
+  737  cd bla
+  738  ls
+  739  cd ..
+  740  ls
+  741  mkdir bla
+  742  cd bla/
+  743  ls -a
+  744  cd ..
+  745  mkdir bla
+  746  cd bla
+  747  cd ..
+  748  cd
+  749  mkdir my_folder
+  750  cd my_folder/
+  751  nano haiku.txt
+  752  ls
+  753  touch other_haiku.txt
+  754  ls
+  755  ls -l
+  756  cat other_haiku.txt 
+  757  cat haiku.txt 
+  758  mkdir analyzed
+  759  mkdir raw
+  760  ls
+  761  mv haiku.txt raw/
+  762  ls
+  763  ls raw/
+  764  mv other_haiku.txt raw/
+  765  ls
+  766  ls raw/
+  767  cd raw/
+  768  ls
+  769  mv other_haiku.txt emptyfile.txt
+  770  ls
+  771  mv haiku.txt emptyfile.txt 
+  772  ls
+  773  cat emptyfile.txt 
+  774  nano other.txt
+  775  ls
+  776  cat emptyfile.txt 
+  777  cat other.txt 
+  778  mv emptyfile.txt other.txt 
+  779  ls
+  780  cat other.txt 
+  781  mv --help
+  782  ls
+  783  touch haiku.txt
+  784  ls
+  785  mv other.txt haiku.txt -i
+  786  ls
+  787  mv other.txt haiku.txt -i
+  788  ls
+  789  mv -i other.txt haiku.txt
+  790  ls
+  791  cp haiku.txt next_haiku.txt
+  792  ls
+  793  cd ..
+  794  ls
+  795  ls raw/
+  796  ls analyzed/
+  797  cp raw/ original
+  798  ls
+  799  cp --help
+  800  cp -r raw/ original
+  801  ls
+  802  ls raw/
+  803  ls original/
+  804  rmdir raw/
+  805  cd raw/
+  806  ls
+  807  rm other.txt 
+  808  ls
+  809  cd ..
+  810  ls
+  811  rmdir raw/
+  812  rm -ri raw/
+  813  rm -r raw/
+  814  ls
+  815  mv original/ raw
+  816  ls
+  817  ls raw/
+  818  cp raw/other.txt analyzed/
+  819  ls analyzed/
+  820  cp raw/other.txt analyzed/whatever.txt
+  821  ls analyzed/
+  822  tree ./
+  823  tree
+  824  apt get install tree
+  825  sudo apt get install tree
+  826  sudo apt install tree
+  827  tree ./
+  828  ls
+  829  mkdir -p analyzed/new/newer/newest
+  830  tree ./
+  831  rm -r analyzed/new/
+  832  tree
+  833  mkdir new
+  834  ls
+  835  ls raw/
+  836  cp raw/next_haiku.txt raw/other.txt new/
+  837  ls new/
+  838  cp raw/next_haiku.txt raw/other.txt raw/haiku.txt 
+  839  ls raw/
+  840  ls raw/*iku.txt
+  841  ls raw/*iku*
+  842  ls raw/*e*
+  843  touch raw/haiku.pdf
+  844  touch raw/haiku.cutecat
+  845  touch raw/haiku
+  846  ls raw/
+  847  ls raw/*haiku*
+  848  ls raw/*.txt
+  849  ls raw/.txt
+  850  ls raw/*.txt
+  851  ls ..
+  852  ls ../Downloads/
+  853  cp ../Downloads/modellepites2021.pdf ./
+  854  ls
+  855  mv modellepites2021.pdf modellepites2021.txt
+  856  ls
+  857  history | grep cp
+  858  cp raw/next_haiku.txt raw/other.txt raw/haiku.txt 
+  859  ls
+  860  rm modellepites2021.txt 
+  861  ls
+  862  ls raw/
+  863  ls raw/?????.txt
+  864  ls raw/haiku.???
+  865  mv raw/haiku.cutecat raw/whatever.cutecat
+  866  ls raw/
+  867  ls raw/*.txt
+  868  ls raw/*.cutecat
+  869  ls raw/*.cutecat raw/*.txt
+  870  ls raw/*t
+  871  tree
+  872  ls --help
+  873  ls --help | grep recursive
+  874  ls -R
+  875  cd ..
+  876  wget https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip
+  877  unzip shell-lesson-data.zip 
+  878  cd shell-lesson-data/
+  879  ll
+  880  cd molecules/
+  881  ls
+  882  cd ..
+  883  cd data/
+  884  ls
+  885  cd elements/
+  886  ls
+  887  cd ..
+  888  ls
+  889  cd ..
+  890  ls
+  891  cd north-pacific-gyre/
+  892  ls
+  893  cd 2012-07-03/
+  894  ls
+  895  less NENE0
+  896  less NENE01736A.txt 
+  897  cd ..
+  898  ls
+  899  cd ..
+  900  ls
+  901  cd writing/
+  902  ls
+  903  cd sa
+  904  cd data/
+  905  ls
+  906  cd ..
+  907  ls
+  908  cd thesis/
+  909  ls
+  910  cd ..
+  911  ls
+  912  cd tools/
+  913  ls
+  914  cd ..
+  915  ls
+  916  cd data/
+  917  ls
+  918  cd elements/
+  919  ls
+  920  cd ..
+  921  ls
+  922  cd pdb/
+  923  ls
+  924  cd ..
+  925  ls
+  926  cd ..
+  927  ls
+  928  cd creatures/
+  929  ls
+  930  cd ..
+  931  ls
+  932  cd creatures/
+  933  ls
+  934  cd ..
+  935  ls
+  936  cd ..
+  937  cd my_folder/
+  938  LS
+  939  ls
+  940  tree
+  941  cat raw/*.txt
+  942  cat raw/*
+  943  tree
+  944  ls
+  945  mkdir a b
+  946  ls
+  947  cd raw/
+  948  ls
+  949  cat haiku
+  950  cat haiku.txt 
+  951  cat other.txt 
+  952  xdg-open other.txt 
+  953  xdg-open ../../Downloads/modellepites2021.pdf 
+  954  cd ..
+  955  cd shell-lesson-data/
+  956  ls
+  957  cd north-pacific-gyre/
+  958  ls
+  959  cd 2012-07-03/
+  960  ls
+  961  cat NENE01812A.txt
+  962  cd
+  963  cd my_folder/
+  964  LS
+  965  ls
+  966  nano a.txt
+  967  ls
+  968  cat a.txt 
+  969  nano b.txt
+  970  cat b.txt 
+  971  nano a.txt
+  972  cat *.txt
+  973  ls *.txt
+  974  cat b.txt a.txt
+  975  cat *.txt > concatenated.txt
+  976  cat concatenated.txt 
+  977  ls -l
+  978  ls -l > my_files.txt
+  979  cat my_files.txt 
+  980  cd ..
+  981  cd shell-lesson-data/
+  982  ls
+  983  cd north-pacific-gyre/
+  984  ls
+  985  cd 2012-07-03/
+  986  ls
+  987  less NENE01729A.txt
+  988  less NENE01729B.txt
+  989  cat *.txt > a.txt
+  990  ls -l
+  991  ls -lh
+  992  cd
+  993  cd my_folder/
+  994  ls
+  995  echo hello
+  996  echo liwengéasngáinaseng
+  997  echo its a nice day
+  998  echo "its a nice day/-"
+  999  echo "This is a sentence" > my_snetence.txt
+ 1000  ls
+ 1001  cat my_snetence.txt 
+ 1002  echo "other sentence" > my_snetence.txt
+ 1003  cat my_snetence.txt 
+ 1004  echo "This is a sentence" >> my_snetence.txt
+ 1005  cat my_snetence.txt 
+ 1006  echo -e
+ 1007  echo "-e"
+ 1008  echo '-e'
+ 1009  man echo
+ 1010  echo --help
+ 1011  man echo
+ 1012  echo "--help"
+ 1013  echo --help
+ 1014  man echo
+ 1015  echo < "-e"
+ 1016  echo < -e
+ 1017  echo < $("-e")
+ 1018  echo < ($"-e")
+ 1019  echo < $"-e"
+ 1020  echo --help
+ 1021  enable -n echo
+ 1022  echo --help
+ 1023  echo "-e"
+ 1024  echo nnaisrnglkian
+ 1025  help echo
+ 1026  man echo
+ 1027  ls
+ 1028  nano long.txt
+ 1029  cat long.txt 
+ 1030  head long.txt 
+ 1031  head long.txt -n5
+ 1032  tail long.txt 
+ 1033  tail long.txt -n5
+ 1034  cat
+ 1035  cat long.txt 
+ 1036  head long.txt -n4
+ 1037  head long.txt -n4 | tail -n2
+ 1038  wc long.txt 
+ 1039  wc -l long.txt 
+ 1040  wc -l *.txt
+ 1041  wc -l
+ 1042  wc -l *.txt
+ 1043  man wc
+ 1044  wc -m *.txt
+ 1045  wc -m *.txt | sort
+ 1046  wc -m *.txt | sort -n
+ 1047  cat long.txt 
+ 1048  sort long.txt 
+ 1049  wc -m *.txt
+ 1050  wc -m *.txt ,| sort
+ 1051  wc -m *.txt | sort
+ 1052  wc -m *.txt | sort -n
+ 1053  wc -m *.txt
+ 1054  wc -m *.txt | sort
+ 1055  ls *txt
+ 1056  ls *txt | xgd-open
+ 1057  ls *txt | xdg-open
+ 1058  ls *txt
+ 1059  ls *txt | wc
+ 1060  ls *txt | wc -l
+ 1061  wc -m *.txt | sort -n
+ 1062  man sort
+ 1063  wc -m *.txt | sort -nr
+ 1064  wc -m *.txt | sort -nr | cut -d" "-f1
+ 1065  wc -m *.txt | sort -nr | cut -d' ' -f1
+ 1066  wc -m *.txt | sort -nr | cut -d' ' -f2
+ 1067  cd ..
+ 1068  ls
+ 1069  cd Documents/
+ 1070  ls
+ 1071  cd ..
+ 1072  cd my_folder/
+ 1073  ls
+ 1074  wc -m *.txt | sort -nr | cut -d' ' -f2
+ 1075  wc -m *.txt | sort -nr
+ 1076  wc -m *.txt | sort -nr | head -n2
+ 1077  wc -m *.txt | sort -nr | head -n2 | tail -n1
+ 1078  wc -m *.txt | sort -nr | head -n2 | tail -n1 | cut -d' ' -f2
+ 1079  wc -m *.txt | sort -nr | head -n2 | tail -n1 | cut -d' ' -f2 | cat
+ 1080  wc -m *.txt | sort -nr | head -n2 | tail -n1 | cut -d' ' -f2
+ 1081  wc -m *.txt | sort -nr | head -n2 | tail -n1 | cut -d' ' -f7
+ 1082  wc -m *.txt | sort -nr
+ 1083  wc -m *.txt | sort -nr | cut -d' ' -f3
+ 1084  wc -m *.txt | sort -nr | cut -d' ' -f64362457
+ 1085  wc -m *.txt | sort -nr | cut -d' ' -f1
+ 1086  wc -m *.txt | sort -nr
+ 1087  wc -m *.txt | sort -nr | awk '{$1=$1;print}'
+ 1088  wc -m *.txt | sort -nr | awk '{$1=$1;print}' | cut -d' ' -f1
+ 1089  nano bla.txt
+ 1090  cat bla.txt 
+ 1091  uniq bla.txt 
+ 1092  uniq bla.txt -c
+ 1093  nano bla.txt
+ 1094  uniq bla.txt 
+ 1095  sort bla.txt 
+ 1096  sort bla.txt | uniq
+ 1097  sort bla.txt | uniq -c
