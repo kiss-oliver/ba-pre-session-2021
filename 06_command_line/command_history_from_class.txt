@@ -536,3 +536,345 @@ pwd
  1095  sort bla.txt 
  1096  sort bla.txt | uniq
  1097  sort bla.txt | uniq -c
+1098  sort bla.txt | uniq -c
+ 1099  cd ..
+ 1100  ll
+ 1101  cd Doc
+ 1102  cd Documents/
+ 1103  ls
+ 1104  git clone git@github.com:CEU-BA-Pre-session/Exam.git
+ 1105  https://github.com/CEU-BA-Pre-session/Exam.git
+ 1106  git clone https://github.com/CEU-BA-Pre-session/Exam.git
+ 1107  cd Exam/
+ 1108  ls
+ 1109  nano README.md 
+ 1110  xdg-open README.md 
+ 1111  nano exam.tex
+ 1112  git status
+ 1113  git add -A
+ 1114  git commit -m 'update exam'
+ 1115  git push
+ 1116  cd ..
+ 1117  ll
+ 1118  history > hist.txt
+ 1119  cd
+ 1120  mkdir work
+ 1121  ls
+ 1122  cd work/
+ 1123  ls
+ 1124  history > history.txt
+ 1125  ls
+ 1126  less history.txt 
+ 1127  grep --help
+ 1128  man grep
+ 1129  grep ls history.txt 
+ 1130  man find
+ 1131  history | less
+ 1132  history
+ 1133  history | grep ls
+ 1134  history | grep ls > ls_commands.txt
+ 1135  ls
+ 1136  history | grep ls | tail -n5
+ 1137  ls
+ 1138  cd ..
+ 1139  cd shell-lesson-data/
+ 1140  éls
+ 1141  ls
+ 1142  cd data/
+ 1143  ls
+ 1144  cd ..
+ 1145  ls
+ 1146  cd writing/
+ 1147  ls
+ 1148  cd data/
+ 1149  ls
+ 1150  less LittleWomen.txt 
+ 1151  grep Amy LittleWomen.txt 
+ 1152  grep Amy LittleWomen.txt | wc -l
+ 1153  grep Beth LittleWomen.txt | wc -l
+ 1154  history | grep "#"
+ 1155  grep Amy LittleWomen.txt > lines_with_amy.txt
+ 1156  less lines_with_amy.txt 
+ 1157  cd
+ 1158  cd work/
+ 1159  ls
+ 1160  echo "some\n other" > file.txt
+ 1161  cat file.txt 
+ 1162  nano other.txt
+ 1163  cat other.txt 
+ 1164  man cat
+ 1165  cat other.txt -E
+ 1166  man sort
+ 1167  history | sort -R | uniq
+ 1168  history | sort -R | uniq -c
+ 1169  man sort
+ 1170  cut -d, -f2 animals.txt | sort | uniq
+ 1171  cd ..
+ 1172  cd shell-lesson-data/
+ 1173  ll
+ 1174  cd data/
+ 1175  ls
+ 1176  cat animals.txt 
+ 1177  cut -d, -f2 animals.txt | sort | uniq
+ 1178  cut -d, -f2 animals.txt | sort | uniq -c
+ 1179  cut -d, -f2 animals.txt | sort
+ 1180  cut -d, -f2 animals.txt | sort | uniq
+ 1181  cut -d, -f2 animals.txt | sort | uniq -c
+ 1182  cd
+ 1183  cd work/
+ 1184  python
+ 1185  python3
+ 1186  nano my_script.sh
+ 1187  ls
+ 1188  . ./my_script.sh 
+ 1189  ls
+ 1190  ls orange/
+ 1191  cd ..
+ 1192  . ./my_script.sh 
+ 1193  cat ../my_script.sh 
+ 1194  cd ..
+ 1195  rm -r apple/
+ 1196  . ./my_script.sh 
+ 1197  cd ..
+ 1198  rm -r apple/
+ 1199  . my_script.sh 
+ 1200  cd ..
+ 1201  rm -r apple/
+ 1202  sh my_script.sh 
+ 1203  rm -r apple/
+ 1204  source my_script.sh 
+ 1205  man source
+ 1206  source --help
+ 1207  sh ./my_script.sh 
+ 1208  bash ./my_script.sh 
+ 1209  cd ..
+ 1210  bash ./my_script.sh 
+ 1211  sh ./my_script.sh 
+ 1212  rm -r apple/
+ 1213  sh ./my_script.sh 
+ 1214  rm -r apple/
+ 1215  bash ./my_script.sh 
+ 1216  rm -r apple/
+ 1217  cd
+ 1218  vi
+ 1219  git config --global core.editor "nano -w"
+ 1220  git config --global user.name "Oliver Kiss"
+ 1221  git config --global user.email "Kiss_Oliver@phd.ceu.edu"
+ 1222  mkdir planets
+ 1223  cd planets/
+ 1224  git init
+ 1225  git branch -m main
+ 1226  git config --global init.defaultBranch main
+ 1227  ls
+ 1228  ls -a
+ 1229  ls
+ 1230  git status
+ 1231  nano mars.txt
+ 1232  ls
+ 1233  git status
+ 1234  git add mars.txt 
+ 1235  git status
+ 1236  git commit -m "Start taking notes on mars"
+ 1237  git status
+ 1238  git log
+ 1239  nano mars.txt 
+ 1240  git status
+ 1241  git add mars.txt 
+ 1242  git status
+ 1243  git commit -m "Accounting for the impacts of moons to Wolfman"
+ 1244  git log
+ 1245  nano mars.txt 
+ 1246  git status
+ 1247  nano equipment.txt
+ 1248  git status
+ 1249  git add mars.txt 
+ 1250  git status
+ 1251  git commit -m "Explore effects of mars' climate on mummy"
+ 1252  git status
+ 1253  git add equipment.txt 
+ 1254  git status
+ 1255  git commit -m "Start making a list of equipment needed"
+ 1256  git log
+ 1257  hafl
+ 1258  cd planets/
+ 1259  git status
+ 1260  git log
+ 1261  mkdir moons
+ 1262  cd moons/
+ 1263  git init
+ 1264  ls -a
+ 1265  ls ../ -a
+ 1266  ls -a
+ 1267  cd ..
+ 1268  ls -a ../
+ 1269  rm -r moons/
+ 1270  ls
+ 1271  ls -a
+ 1272  nano equipment.txt 
+ 1273  git status
+ 1274  git add equipment.txt 
+ 1275  git commit -m "extend the list of equipment needed"
+ 1276  git status
+ 1277  git log
+ 1278  nano mars.txt 
+ 1279  git status
+ 1280  git diff HEAD mars.txt
+ 1281  git status
+ 1282  git diff HEAD mars.txt
+ 1283  nano mars.txt 
+ 1284  git diff HEAD mars.txt
+ 1285  git checkout HEAD
+ 1286  git status
+ 1287  nano mars.txt 
+ 1288  mkdir moons
+ 1289  cd moons/
+ 1290  nano phobos.txt
+ 1291  nano deimos.txt
+ 1292  ls
+ 1293  cd ..
+ 1294  git status
+ 1295  cd moons/
+ 1296  git status
+ 1297  cd ..
+ 1298  git status
+ 1299  git add moons/
+ 1300  git status
+ 1301  git commit -m "Start collecting information on moons"
+ 1302  mkdir venus
+ 1303  ls
+ 1304  git status
+ 1305  touch venus/moons.txt
+ 1306  git status
+ 1307  nano venus/readme.txt
+ 1308  ls venus/
+ 1309  git add venus/moons.txt 
+ 1310  git status
+ 1311  git commit -m "Start listing all the moons of venus"
+ 1312  git log
+ 1313  git log --oneline
+ 1314  git status
+ 1315  cd venus/
+ 1316  git status
+ 1317  git log --oneline
+ 1318  git log
+ 1319  git blame --help
+ 1320  git blame ../mars.txt
+ 1321  cd ..
+ 1322  git blame mars.txt
+ 1323  git status
+ 1324  git log --oneline
+ 1325  git checkout 7235abe
+ 1326  git diff HEAD mars.txt
+ 1327  git stash --help
+ 1328  git stash
+ 1329  git status
+ 1330  git checkout 7235abe
+ 1331  ls
+ 1332  cat mars.txt 
+ 1333  git checkout
+ 1334  git status
+ 1335  git checkout main
+ 1336  git log --oneline
+ 1337  git diff 7235abe mars.txt
+ 1338  git checkout 7235abe mars.txt
+ 1339  cat mars.txt 
+ 1340  ls
+ 1341  git status
+ 1342  git diff HEAD mars.txt
+ 1343  git checkout HEAD mars.txt
+ 1344  git status
+ 1345  cat mars.txt 
+ 1346  git log --oneline
+ 1347  git remote add origin https://github.com/kiss-oliver/planets.git
+ 1348  git branch -M main
+ 1349  git push -u origin main
+ 1350  nano mars.txt 
+ 1351  git status
+ 1352  git add mars.txt 
+ 1353  git commit -m "add one more line to mars documentation"
+ 1354  git log --oneline
+ 1355  git push
+ 1356  cd ..
+ 1357  git clone https://github.com/kiss-oliver/ba-pre-session-2021.git
+ 1358  ls
+ 1359  cd ba-pre-session-2021/
+ 1360  ls
+ 1361  git log --oneline
+ 1362  cd ..
+ 1363  git clone https://github.com/kiss-oliver/animals.git
+ 1364  cd animals/
+ 1365  ls
+ 1366  nano cute.txt
+ 1367  git status
+ 1368  git add cute.txt 
+ 1369  git commit -m "start listing cute animals"
+ 1370  git push
+ 1371  nano ugly.txt
+ 1372  git add ugly.txt 
+ 1373  git commit -m "start listing ugly animals"
+ 1374  git push
+ 1375  ls
+ 1376  cat ugly.txt 
+ 1377  git fetch
+ 1378  cat ugly.txt 
+ 1379  git log --oneline
+ 1380  git status
+ 1381  git pull
+ 1382  cat ugly.txt 
+ 1383  cd ..
+ 1384  ls
+ 1385  cd planets/
+ 1386  cd ..
+ 1387  git status
+ 1388  git clone https://github.com/kiss-oliver/something.git
+ 1389  cd something/
+ 1390  ll
+ 1391  nano README.md 
+ 1392  git add README.md 
+ 1393  git commit -m "modify"
+ 1394  git pull
+ 1395  git status
+ 1396  nano README.md 
+ 1397  git status
+ 1398  git add README.md 
+ 1399  git status
+ 1400  git commit -m "merge changes"
+ 1401  git status
+ 1402  git push
+ 1403  cd ..
+ 1404  git clone https://github.com/kiss-oliver/ubiquitous-parakeet.git
+ 1405  ls
+ 1406  cd ubiquitous-parakeet/
+ 1407  ls
+ 1408  nano password.txt
+ 1409  ls
+ 1410  git status
+ 1411  pwd
+ 1412  nano .gitignore
+ 1413  git status
+ 1414  git add .gitignore 
+ 1415  git status
+ 1416  git commit -m "Add files to gitignore"
+ 1417  git push
+ 1418  ls
+ 1419  nano README.md 
+ 1420  git status
+ 1421  git add README.md 
+ 1422  git commit -m "Add an additional line to readme"
+ 1423  git push
+ 1424  git pull
+ 1425  git status
+ 1426  nano README.md 
+ 1427  git status
+ 1428  git add README.md 
+ 1429  git status
+ 1430  git commit -m "Resolve merge conflict in README"
+ 1431  git push
+ 1432  nano README.md 
+ 1433  git status
+ 1434  git add README.md 
+ 1435  git commit -m "add a line at the end of readme"
+ 1436  git pull
+ 1437  git status
+ 1438  cat README.md 
+ 1439  git push
